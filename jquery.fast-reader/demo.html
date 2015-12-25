@@ -1,0 +1,45 @@
+﻿<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="jquery.fast-reader.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='jquery.fast-reader.min.css' rel='stylesheet' type='text/css'>
+		<style>
+		#text 
+		{
+			background-color: ghostwhite;
+            width: 80%;
+            padding: 10px 20px;
+            margin: 0 auto;
+            margin-top: 10px;
+		}
+		button#fastreader-init
+		{
+			margin: 0 auto;
+			display: block;
+		}
+		</style>
+	</head>
+	<body>
+		<button id="fastreader-init">START FASTREADER</button>
+		<div id="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a efficitur est. Pellentesque et erat tempus, tristique ex at, interdum purus. Proin tempor sodales luctus. Donec interdum ullamcorper magna, ut hendrerit lorem molestie vel. Phasellus eget lectus vehicula, faucibus nulla a, rutrum quam. Nunc ut lobortis sem. Aliquam efficitur nec sapien a semper. Etiam vel mollis elit, at condimentum ante. Mauris ultricies, eros sit amet commodo ornare, ligula turpis feugiat lacus, ultrices pellentesque enim diam nec justo.</p>
+
+            <p>Donec neque dolor, ornare non metus eget, ultrices egestas elit. Aliquam eget auctor nisi. Praesent accumsan mauris et ante bibendum, ac luctus nunc volutpat. Donec mollis vulputate ultricies. Mauris vel consequat quam. Ut a interdum ligula, quis posuere ex. Duis porttitor ultrices massa, in lobortis augue eleifend nec. Nullam cursus velit diam, a pharetra sapien eleifend et. In sollicitudin, est et efficitur placerat, est nisl pharetra mi, non semper lectus diam ac ligula.</p>
+
+            <p>Nam aliquam vestibulum lorem sit amet finibus. Nunc placerat a purus et sollicitudin. Praesent ligula nibh, ultricies et sodales a, laoreet ut odio. Nulla condimentum convallis eros, eget aliquet nisi efficitur in. Cras vel dignissim nisl, mattis vulputate orci. Curabitur egestas nulla id posuere auctor. Nam hendrerit efficitur magna quis convallis. Integer vel erat dolor.</p>
+
+            <p>Sed varius, felis sed ullamcorper hendrerit, leo orci viverra odio, at pharetra diam sem volutpat est. Vestibulum dignissim, erat eget semper scelerisque, libero diam venenatis ex, at cursus risus odio eu tortor. Praesent augue massa, vehicula eget libero eget, fringilla commodo nisl. Vivamus sagittis id neque at aliquet. Fusce euismod ligula vitae leo suscipit fringilla. Morbi rhoncus diam ac lacus gravida interdum. Pellentesque fringilla at tellus at facilisis. Praesent quis erat vitae nunc varius molestie. Fusce tempor ex mauris, ut iaculis diam scelerisque sit amet. Nulla laoreet diam mauris, convallis luctus magna fringilla a. Quisque vestibulum erat dui.</p>
+
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce ultrices diam ornare, venenatis risus id, accumsan tellus. Phasellus nec urna consectetur, ullamcorper dolor quis, fermentum nisl. Quisque interdum metus elit, a gravida nisl rhoncus quis. Phasellus congue, tortor at hendrerit sagittis, arcu justo elementum mauris, in sodales nisi ex ac tellus. Morbi pretium purus turpis, non feugiat lorem molestie ut. Sed ac neque sit amet mauris aliquet tempor. Cras ligula risus, imperdiet et pellentesque quis, finibus sed erat. Quisque tristique metus arcu, condimentum pharetra velit ultricies at. Cras sit amet fringilla nisi. Aenean quis risus maximus, placerat mi a, tincidunt tellus. Morbi imperdiet dolor quis urna vestibulum, a suscipit ipsum imperdiet. Suspendisse id elementum nibh, ac tempus neque. Vivamus vel ipsum sem. Aenean hendrerit mauris at mi commodo, at pharetra eros pharetra.</p>
+		</div>
+		<script>
+			$(document).ready(function() {
+				$("button#fastreader-init").click(function(){
+					$("#text").fastreader();
+				});
+			});
+		</script>
+	</body>
+</html>
