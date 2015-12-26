@@ -74,3 +74,8 @@ section#main div#links a i.fa
     margin-left: 0;
   }
 }
+@media (max-heigth: 5000px) {
+    body {
+        font-size: 0.7em;
+    }
+}
